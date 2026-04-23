@@ -1,8 +1,7 @@
-# Sentiment Analysis (Machine Learning)
+# Sentiment Analysis
 
 ## Overview
 This project explores sentiment classification using basic machine learning techniques on Portuguese tweets.
-
 The goal is to build a simple baseline and understand how different models perform on text data.
 
 ## Objective
