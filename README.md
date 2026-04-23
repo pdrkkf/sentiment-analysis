@@ -7,12 +7,6 @@ The goal is to build a simple baseline and understand how different models perfo
 ## Objective
 Classify tweets into sentiment categories.
 
-## Stack
-- Python
-- pandas
-- scikit-learn
-- Jupyter Notebook
-
 ## Workflow
 - Load dataset
 - Basic data inspection
@@ -27,13 +21,16 @@ Classify tweets into sentiment categories.
 - Linear SVC
 
 ## Results
-The models achieve reasonable performance for a simple baseline.
+- Best model: Linear SVC  
+- Best accuracy: ~0.78 (30% test split)
 
-Linear SVC showed the best results among the tested models.
+## Model Comparison (30% split)
+- Naive Bayes: ~0.70  
+- Decision Tree: ~0.65  
+- Linear SVC: ~0.78  
 
 ## Notes
 - Dataset contains Portuguese tweets
-- No hyperparameter tuning was applied
 - Focus is on understanding the workflow rather than optimizing performance
 
 ## Reference
